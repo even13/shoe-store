@@ -6,8 +6,8 @@ constructor(props) {
     super(props);
     this.state = {
       products: [
-        {id: 1, name: 'AirMax 90', brand: 'Nike'},
-        {id: 2, name: 'Yeezy', brand: 'Adidas'},
+        {id: 1, name: 'Hi', brand: 'Converse'},
+        {id: 2, name: 'Thornby Lace', brand: 'Clarks'},
         {id: 3, name: 'Classic', brand: 'Reebok'},
       ]
     }
