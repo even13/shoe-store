@@ -40,6 +40,7 @@ it('should display the brand name in each `<li>` element', () => {
 });
 
 it('should call `props.onProductSelect` when an <li> is clicked', () => {
+  //console.log(wrapper.debug())
   const firstElement = wrapper.find('li').first();
   // We check that the function has not been called yet
   expect(productSelectFn.mock.calls.length).toEqual(0);
